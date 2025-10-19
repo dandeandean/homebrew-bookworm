@@ -1,4 +1,4 @@
-class Cask < Formula
+class Bookworm < Formula
   version "0.0.0"
   desc "Browser bookmarks, but better"
   homepage "https://github.com/dandeandean/bookworm"
