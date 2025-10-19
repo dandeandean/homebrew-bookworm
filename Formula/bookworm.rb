@@ -3,7 +3,7 @@ class Bookworm < Formula
   desc "Browser bookmarks, but better"
   homepage "https://github.com/dandeandean/bookworm"
   url "https://github.com/dandeandean/bookworm/archive/refs/tags/v0.0.0.tar.gz"
-  sha256 "f329c83947f2c26a5664d47e7bcf81bd00e2efb7900e0d00917759aa9e34e1d3"
+  sha256 "7d90e1d721924aa1de6329de75f101b0445b035390782dec02f327acc3e82214"
   license "MIT"
   head "https://github.com/dandeandean/bookworm", branch: "main"
 
