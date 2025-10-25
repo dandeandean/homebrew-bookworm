@@ -19,6 +19,7 @@ class Bookworm < Formula
     ldflags = "-s -w -X main.Version=#{version} -X main.Build=#{tap.user}"
     tags = %w[fts5 icu]
     system "go", "build", *std_go_args(ldflags:, tags:)
+    generate_completions_from_executable(bin/"bookworm", "completion")
   end
 
 end
